@@ -1,0 +1,152 @@
+@media screen and (min-width:220px) and (max-width:480px)
+{
+
+body{
+    background-color: whitesmoke;
+   }
+
+    .container{
+        display: block;
+        overflow: hidden;
+        position: absolute;
+    }
+.first-line{
+    margin-left: 2em;
+    margin-top: 3em;
+}
+  #back{
+    font-size: 1.8em;
+    color: orangered;
+}
+.tot{
+    margin-left: 0.6em;
+    font-size: 1.8em;
+    font-family: sans-serif;
+}
+.first-box
+{
+  border: 2px solid orangered;
+  border-radius: 7px;
+  height: 20em;
+  width: 13em;
+  box-shadow: 5px 5px lightgray;
+  margin-left: 2em;
+  margin-top: 3em;
+  
+}
+.box-header{
+    align-items: center;
+    font-family: sans-serif;
+  }
+  .line{
+    width: 80%;
+    margin-left: 2.5em;
+  }
+  .task{
+    color: orangered;
+    margin-left: 1.5em;
+    margin-top: 2em;
+  }
+  .check{
+   height: 18px;
+   width: 18px;
+  }
+  .pt{
+      font-size: 1.3em;
+  }
+  #plus{
+      margin-top: 3em;
+      margin-left: 7em;
+      font-size: 1.5em;
+      color: orangered;
+  }
+  .next{
+
+    margin-left: 6em;
+  }
+  .next-page{
+    margin-top: 2em;
+  }
+
+}
+
+/* for laptop view */
+
+@media screen and (min-width:480px){
+
+body{
+      background-color: turquoise;
+
+}
+
+
+.container{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+
+}
+.first-line{
+margin-left: 2em;
+margin-top: 3em;
+}
+#back{
+font-size: 1.8em;
+color: orangered;
+}
+.tot{
+margin-left: 0.6em;
+font-size: 1.8em;
+font-family: sans-serif;
+}
+.first-box
+{
+border: 2px solid orangered;
+border-radius: 7px;
+height: 20em;
+width: 13em;
+box-shadow: 5px 5px lightgray;
+margin-left: 2em;
+margin-top: 3em;
+
+}
+.box-header{
+align-items: center;
+font-family: sans-serif;
+}
+.line{
+width: 80%;
+margin-left: 2.5em;
+}
+.task{
+color: orangered;
+margin-left: 1.5em;
+margin-top: 2em;
+}
+.check{
+height: 18px;
+width: 18px;
+}
+.pt{
+  font-size: 1.3em;
+}
+#plus{
+  margin-top: 3em;
+  margin-left: 7em;
+  font-size: 1.5em;
+  color: orangered;
+}
+.next{
+
+  margin-left: 6em;
+}
+.next-page{
+  margin-top: 2em;
+}
+
+
+
+
+
+
+}

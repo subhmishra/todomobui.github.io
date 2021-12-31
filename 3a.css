@@ -1,0 +1,124 @@
+ @media screen and  (min-width:480px){
+      
+    body{
+        background-color: yellowgreen;
+        
+    }
+    .container{
+        display: block;
+        overflow: hidden;
+    }
+    
+.container{
+        display: block;
+        overflow: hidden;
+        position: absolute;
+      } 
+    
+
+.task-list {
+  margin-left: 3em;
+  margin-top: 2em;
+}
+
+.tasks {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.lists {
+  font-size: 1em;
+  font-family: sans-serif;
+  color: grey;
+  margin-left: 7px;
+}
+#plus {
+  color: orangered;
+  margin-left: 0.4em;
+  font-size: 28px;
+  
+}
+
+.box{
+    border: 1px solid lightpink;
+    height: 2.5em;
+    width: 13em;
+    margin-left: 3em;
+    margin-top: 1em;
+    border-radius: 10px;
+    box-shadow: 3px 3px lightgray;
+}
+.box-content{
+    margin-left: 1em;
+    margin-top: 0.6em;
+    font-family: sans-serif;
+} 
+.next{
+
+  margin-left: 6em;
+}
+.next-page{
+  margin-top: 2em;
+}
+} 
+
+/* for mobile view * * * */
+ @media screen and  (min-width:250px) and (max-width:480px){
+      
+    body{
+        background-color: whitesmoke;
+        
+    }
+     .container{
+        display: block;
+        overflow: hidden;
+        position: absolute;
+      } 
+    
+
+.task-list {
+  margin-left: 3em;
+  margin-top: 2em;
+}
+
+.tasks {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.lists {
+  font-size: 1em;
+  font-family: sans-serif;
+  color: grey;
+  margin-left: 7px;
+}
+#plus {
+  color: orangered;
+  margin-left: 0.4em;
+  font-size: 28px;
+  
+}
+
+.box{
+    border: 1px solid lightpink;
+    height: 2.5em;
+    width: 13em;
+    margin-left: 3em;
+    margin-top: 1em;
+    border-radius: 10px;
+    box-shadow: 3px 3px lightgray;
+}
+.box-content{
+    margin-left: 1em;
+    margin-top: 0.6em;
+    font-family: sans-serif;
+} 
+.next{
+
+  margin-left: 6em;
+}
+.next-page{
+  margin-top: 2em;
+}
+
+ }
