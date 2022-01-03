@@ -2,7 +2,7 @@
 {
 
 body{
-    background-color: whitesmoke;
+    background-color: white;
    }
 
     .container{
@@ -11,9 +11,9 @@ body{
         position: absolute;
     }
 .first-line{
-    margin-left: 2em;
+    margin-left: 0.8em;
     margin-top: 3em;
-    filter: blur(12px);
+    filter: blur(6px);
 }
   #back{
     font-size: 1.8em;
@@ -31,7 +31,7 @@ body{
   height: 20em;
   width: 13em;
   box-shadow: 5px 5px lightgray;
-  margin-left: 2em;
+  margin-left: 1.5em;
   margin-top: 3em;
   filter: blur(12px);
   
@@ -39,6 +39,7 @@ body{
 .box-header{
     align-items: center;
     font-family: sans-serif;
+    color: rgb(243, 138, 99);
   }
   .line{
     width: 80%;

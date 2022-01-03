@@ -2,7 +2,7 @@
 {
 
 body{
-    background-color: whitesmoke;
+    background-color: white;
    }
 
     .container{
@@ -25,11 +25,11 @@ body{
 }
 .first-box
 {
-  border: 2px solid orangered;
+  border: 2px solid rgba(255, 185, 164, 0.904);
   border-radius: 7px;
   height: 20em;
   width: 13em;
-  box-shadow: 5px 5px lightgray;
+  box-shadow: 3px 5px 4px 1px rgb(224, 221, 221);
   margin-left: 2em;
   margin-top: 3em;
   
@@ -50,6 +50,7 @@ body{
   .check{
    height: 18px;
    width: 18px;
+   margin-left: 2.5em;
   }
   .pt{
       font-size: 1.3em;
